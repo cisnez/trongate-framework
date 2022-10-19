@@ -317,7 +317,7 @@ class Trongate {
             move_uploaded_file($target_file['tmp_name'], $new_file_path);
 
         } else {
-            die('ERROR: Unable to find target file destination: $destination');
+            die('ERROR: Unable to find target file destination:'.$destination);
         }
     }
 
